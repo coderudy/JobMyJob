@@ -1,0 +1,32 @@
+#search-input {
+	float:left;
+}
+
+#search-form-options {
+	background:#FFFFFF;
+}
+
+#job-seekers {
+	margin-left:15px;
+}
+
+#job-seeker-header {
+	margin-left:15px;
+}
+
+#employers {
+	margin-right:10px;
+}
+
+#employers-header {
+	margin-right:180px;
+}
+
+.job-seeker-column {
+	margin-left:10px;
+	text-align:center;
+}
+
+.circle {
+	margin-left:10px;
+}

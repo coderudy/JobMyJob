@@ -1,0 +1,45 @@
+﻿.slickscrollcontainer
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.slickscroll_vertical_scrollbar
+{
+    position: absolute;
+    width: 8px;
+    height: 87px;
+    background-image: url('../images/scrollbar_vertical_toppart.gif');
+    background-repeat: no-repeat;
+}
+
+.slickscroll_vertical_scrollbar div
+{
+    background-position: bottom;
+    background-image: url('../images/scrollbar_vertical_bottompart.gif');
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 15px;
+    bottom: 0px;
+    position:absolute;
+}
+
+.slickscroll_horizontal_scrollbar
+{
+    position: absolute;
+    width: 87px;
+    height: 12px;
+    background-image: url('../images/scrollbar_horizontal_leftpart.png');
+    background-repeat: no-repeat;
+    cursor:move;
+}
+
+.slickscroll_horizontal_scrollbar div
+{
+    background-image: url('../images/scrollbar_horizontal_rightpart.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 5px;
+    height: 12px;
+    float:right;
+}
